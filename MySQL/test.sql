@@ -1,0 +1,15 @@
+DROP DATABASE test_database;
+CREATE DATABASE test_database;
+
+USE test_database;
+
+CREATE TABLE journey (
+ID INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY,
+DISTANCE INTEGER,
+JOURNEYDATE DATE,
+TICKET CHAR(1)
+);
+
+SHOW tables;
+
+DESC journey;
